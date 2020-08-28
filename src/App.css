@@ -1,0 +1,35 @@
+body{
+  font-family: 'Rasa', serif;
+  font-weight: 200;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.button {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+
+/*colors
+
+ #a7bea9;
+ #d9e3da;
+ #75858f;
+ #f3dcd4;
+ #f2a68d;
+ #9b9a94;
+ #e0cbc4;
+ #ebe4de;
+ #131310;
+
+
+
+*/

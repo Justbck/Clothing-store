@@ -1,0 +1,15 @@
+.sign-in-and-sign-up{
+    display: flex;
+    justify-content: space-between;
+    padding:0 10%;
+
+
+}
+
+@media (max-width:900px){
+
+    .sign-in-and-sign-up{
+        display: inline-block;
+    
+    }
+}

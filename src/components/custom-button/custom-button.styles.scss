@@ -1,5 +1,6 @@
 .custom-button {
   height: 50px;
+  min-width: 20%;
   letter-spacing: 0.5px;
   line-height: 50px;
   padding: 0 35px 0 35px;
@@ -13,7 +14,6 @@
   border: none;
   cursor: pointer;
   transition: 0.5s;
-  margin-left:1%;
   align-self: center;
 
 
@@ -37,4 +37,10 @@
   }
 }
 
+@media (max-width:700px){
+  .custom-button{
+
+    padding:0 4%;
+  }
+}
 

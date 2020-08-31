@@ -1,7 +1,6 @@
 .sign-in{
-    margin-top:30px;
     width:30vw;
-
+    margin-top:20px;
 }
 
 
@@ -19,7 +18,7 @@
 
 @media (max-width:700px) {
     .sign-in{
-        padding:50px;
+        padding:5%;
         width:100%;
         flex-direction: column;
     }

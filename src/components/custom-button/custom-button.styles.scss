@@ -1,6 +1,6 @@
 .custom-button {
   height: 50px;
-  min-width: 20%;
+  min-width: 40%;
   letter-spacing: 0.5px;
   line-height: 50px;
   padding: 0 35px 0 35px;
@@ -39,8 +39,8 @@
 
 @media (max-width:700px){
   .custom-button{
-
-    padding:0 4%;
+    min-width: 35%;
+    padding:0 2%;
   }
 }
 

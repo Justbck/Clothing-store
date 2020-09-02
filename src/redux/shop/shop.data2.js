@@ -30,8 +30,8 @@ const SHOP_DATA = [
       },
       {
         id: 5,
-        name: 'ANNIKA GOLD-TONE NECKLACE',
-        imageUrl: 'https://images.allsaints.com/products/600/WJ043S/6395/WJ043S-6395-1.jpg',
+        name: 'PEARLDROP GOLD-TONE FRESH WATER PEARL NECKLACE',
+        imageUrl: 'https://images.allsaints.com/products/900/WJ017S/6395/WJ017S-6395-2.jpg',
         price: 26
       },
       {

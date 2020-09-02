@@ -12,7 +12,7 @@ const CollectionsOverview = ({ collections }) => (
     <div className='collections-overview'>
     {
         collections.map(({id,...otherCollectionProps}) => (
-            <CollectionPreview key ={id}{...otherCollectionProps}/>
+            <CollectionPreview key ={id} {...otherCollectionProps}/>
         ))
     }
     </div>

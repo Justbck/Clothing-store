@@ -19,7 +19,7 @@
   .name,
   .quantity,
   .price {
-    width: 23%;
+    width: 43%;
   }
 
   .quantity {
@@ -38,4 +38,10 @@
     padding-left: 12px;
     cursor: pointer;
   }
+}
+
+@media (max-width:700px){
+
+
+
 }

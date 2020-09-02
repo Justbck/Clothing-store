@@ -2,10 +2,10 @@ const INITIAL_STATE = {
 
         sections: [
             {
-              title: 'accesories',
+              title: 'accessories',
               imageUrl: 'https://i.pinimg.com/474x/e1/36/2d/e1362d4974f4d14bce62752605262b94.jpg',
               id: 1,
-              linkUrl: 'shop/accesories'
+              linkUrl: 'shop/accessories'
             
             },
             {

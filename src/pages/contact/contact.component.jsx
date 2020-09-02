@@ -6,17 +6,22 @@ const ContactPage = () => (
 
     <div className = 'contact-page'>
 
-            <h2 className='title'>
-            This website is a part of portfolio. 
-            </h2>
-            <ul className = 'info'>
-                <li><span className = 'link'> Developer: </span> Justyna Bucko </li>
-                <li><span className = 'link'> Website: </span>  <a href='http://justyna-bucko.pl/'> http://justyna-bucko.pl/</a></li>
-                <li><span className = 'link'> Github: </span>   <a href='https://github.com/Justbck'>https://github.com/Justbck</a></li>
-                <li><span className = 'link'>LinkedIn:</span>   <a href='https://www.linkedin.com/in/justyna-bucko-51a2b5188/'>https://www.linkedin.com/in/justyna-bucko-51a2b5188/</a></li>
-                <li><span className = 'link'>Behance:</span>    <a href='https://www.behance.net/Justbck'>https://www.behance.net/Justbck</a></li>
-                <li><span className = 'link'>Email: </span>   <email> <a href="mailto:buckojustyna@gmail.com">buckojustyna@gmail.com </a></email></li>
-            </ul>
+    <div className = 'text'>
+        <h2>The store does not exist.</h2>
+        <p className='sub-text'> This website was developed as Justyna Bucko's portfolio project.</p>
+    </div>
+
+    <h4 className='find-me'>Find me on: </h4>
+    <div className="footer-social-icons">
+    <ul className="social-icons">
+        <li><a href="http://justyna-bucko.pl/" className="social-icon"> <i class="fa fa-globe"></i></a></li>
+        <li><a href="https://www.behance.net/Justbck" className="social-icon"> <i class="fa fa-behance"></i></a></li>
+        <li><a href="mailto:buckojustyna@gmail.com" className="social-icon"> <i class="fa fa-envelope"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/justyna-bucko-51a2b5188/" className="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://github.com/Justbck" className="social-icon"> <i class="fa fa-github"></i></a></li>
+    </ul>
+</div>
+
     </div>
 );
 

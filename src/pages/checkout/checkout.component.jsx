@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 import CheckoutItem from '../../components/checkout-item/checkout-item';
 import StripeCheckoutButton from '../../components/stripe-button/stripe-button';
-
+import { motion } from 'framer-motion';
 
 import { selectCartItems, selectCartTotal } from '../../redux/cart/cart.selectors';
 
@@ -12,6 +12,13 @@ import './checkout.styles.scss';
 import CartItem from '../../components/cart-item/cart-item.component';
 
 const CheckoutPage = ({ cartItems, total }) => (
+
+    <motion.div
+    initial = {{ opacity:0 }}
+    animate = {{ opacity:1 }} 
+    exit = {{ opacity:0 }} >
+
+
     <div className = 'checkout-page'>
         <div className = 'checkout-header'>
             <div className = 'header-block'>
@@ -42,6 +49,8 @@ const CheckoutPage = ({ cartItems, total }) => (
         
         
     </div>
+
+    </motion.div>
 );
 
 

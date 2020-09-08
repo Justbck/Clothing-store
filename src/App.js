@@ -1,4 +1,5 @@
 import React from 'react';
+import { AnimatePresence, motion } from 'framer-motion';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
@@ -56,6 +57,7 @@ class App extends React.Component {
     return (
       <div>
       <Header/>
+      <AnimatePresence>
         <Switch>
           <Route exact path = '/' component = {HomePage}/>
           <Route path = '/shop' component = {ShopPage} />
@@ -72,6 +74,8 @@ class App extends React.Component {
                 )}
               />
         </Switch>
+        </AnimatePresence>
+       
       </div>
       
     );

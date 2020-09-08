@@ -1,17 +1,23 @@
 import React from 'react';
 import './contact.styles.scss';
-
+import { motion } from 'framer-motion';
 
 const ContactPage = () => (
 
-    <div className = 'contact-page'>
+    <motion.div
+    initial = {{ opacity:0 }}
+    animate = {{ opacity:1 }} 
+    exit = {{ opacity:0 }} >
+
+   
+    <div className = 'contact-page' >
 
     <div className = 'text'>
         <h2>The store does not exist.</h2>
         <p className='sub-text'> This website was developed as Justyna Bucko's portfolio project.</p>
     </div>
 
-    <h4 className='find-me'>Find me on: </h4>
+    <h4 className='find-me' >Find me on: </h4>
     <div className="footer-social-icons">
     <ul className="social-icons">
         <li><a href="https://github.com/Justbck" className="social-icon"> <i class="fa fa-github"></i></a></li>
@@ -24,6 +30,8 @@ const ContactPage = () => (
 </div>
 
     </div>
+    </motion.div>
+
 );
 
 export default ContactPage;
